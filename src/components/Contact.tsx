@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -59,7 +60,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-foreground">Studio Location</div>
-                    <div className="text-muted-foreground">123 Beauty Lane, Elegant City, EC 12345</div>
+                    <div className="text-muted-foreground">Maboneng Precinct, 286 Fox Street, Johannesburg, 2001</div>
                   </div>
                 </div>
                 
@@ -69,7 +70,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-foreground">Phone</div>
-                    <div className="text-muted-foreground">(555) 123-NAIL</div>
+                    <div className="text-muted-foreground">+27 11 234-5678</div>
                   </div>
                 </div>
                 
@@ -79,7 +80,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-foreground">Email</div>
-                    <div className="text-muted-foreground">hello@blushandgoldnails.com</div>
+                    <div className="text-muted-foreground">hello@blushandgoldnails.co.za</div>
                   </div>
                 </div>
               </div>
@@ -135,7 +136,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full"
-                    placeholder="(555) 123-4567"
+                    placeholder="+27 11 234-5678"
                   />
                 </div>
               </div>
@@ -149,7 +150,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full"
-                  placeholder="your.email@example.com"
+                  placeholder="your.email@example.co.za"
                 />
               </div>
               

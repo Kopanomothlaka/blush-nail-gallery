@@ -7,42 +7,42 @@ const Services = () => {
       icon: "💅",
       title: "Classic Manicure",
       description: "Traditional nail care with cuticle treatment, filing, and polish application",
-      price: "$35",
+      price: "R350",
       duration: "45 min"
     },
     {
       icon: "✨",
       title: "Gel Manicure",
       description: "Long-lasting gel polish that stays chip-free for up to 3 weeks",
-      price: "$55",
+      price: "R550",
       duration: "60 min"
     },
     {
       icon: "🎨",
       title: "Custom Nail Art",
       description: "Unique hand-painted designs tailored to your style and personality",
-      price: "$75+",
+      price: "R750+",
       duration: "90 min"
     },
     {
       icon: "🦶",
       title: "Luxury Pedicure",
       description: "Relaxing foot treatment with exfoliation, massage, and polish",
-      price: "$65",
+      price: "R650",
       duration: "75 min"
     },
     {
       icon: "💎",
       title: "Acrylic Extensions",
       description: "Durable nail extensions for length and strength with your choice of shape",
-      price: "$80",
+      price: "R800",
       duration: "120 min"
     },
     {
       icon: "🌸",
       title: "Spa Package",
       description: "Complete luxury experience with manicure, pedicure, and hand treatment",
-      price: "$120",
+      price: "R1200",
       duration: "150 min"
     }
   ];

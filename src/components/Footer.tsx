@@ -1,3 +1,4 @@
+
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -17,7 +18,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Blush & Gold Nails</span>
             </div>
             <p className="text-background/80 mb-4 max-w-md">
-              Luxury nail care and artistry in the heart of the city. 
+              Luxury nail care and artistry in the heart of Johannesburg. 
               Transform your nails into works of art with our premium services.
             </p>
             <div className="flex space-x-4">
@@ -68,10 +69,11 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <div className="space-y-2 text-background/80">
-              <p>123 Beauty Lane</p>
-              <p>Elegant City, EC 12345</p>
-              <p>(555) 123-NAIL</p>
-              <p>hello@blushandgoldnails.com</p>
+              <p>Maboneng Precinct</p>
+              <p>286 Fox Street</p>
+              <p>Johannesburg, 2001</p>
+              <p>+27 11 234-5678</p>
+              <p>hello@blushandgoldnails.co.za</p>
             </div>
           </div>
         </div>
