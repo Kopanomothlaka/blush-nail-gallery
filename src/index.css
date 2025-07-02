@@ -2,41 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Nail Salon Design System - Elegant, luxurious, and feminine
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Brand Colors */
+    --background: 350 25% 98%;
+    --foreground: 330 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 330 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 330 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Elegant Blush Pink */
+    --primary: 345 50% 75%;
+    --primary-dark: 345 60% 65%;
+    --primary-light: 345 40% 85%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Warm Gold */
+    --secondary: 45 85% 75%;
+    --secondary-dark: 45 85% 65%;
+    --secondary-light: 45 60% 85%;
+    --secondary-foreground: 330 15% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Neutral Elegance */
+    --muted: 350 15% 95%;
+    --muted-foreground: 330 10% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 345 30% 90%;
+    --accent-foreground: 330 15% 25%;
+
+    /* Luxury Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(345 50% 75%), hsl(345 40% 85%));
+    --gradient-gold: linear-gradient(135deg, hsl(45 85% 75%), hsl(45 60% 85%));
+    --gradient-elegant: linear-gradient(180deg, hsl(350 25% 98%), hsl(350 15% 95%));
+
+    /* Elegant Shadows */
+    --shadow-soft: 0 4px 20px hsl(345 50% 75% / 0.15);
+    --shadow-elegant: 0 8px 30px hsl(345 50% 75% / 0.2);
+    --shadow-gold: 0 4px 20px hsl(45 85% 75% / 0.15);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 345 25% 90%;
+    --input: 345 20% 95%;
+    --ring: 345 50% 75%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
